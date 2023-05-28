@@ -23,8 +23,9 @@ console.log(greeting);
 //     name: "uhaoi"
 // }//  this is not a valid function
 
-(function(name){
+(function(global, name){
     console.log(name);
+    global.greeting = "Hi"
     return "Hello "+ name;
 }("Biki")) //classic example of IIFE
 
@@ -32,8 +33,8 @@ console.log(greeting);
 
 // Frame work Aside
 
-console.log("Function Aside");
+console.log("----Function Aside======");
 
 
-// Global exeecution context 
+// Global exeecution context  // it only takes the variable declare it and assign given value
 // Execution Context for the anonymous function // getting "Hello"
