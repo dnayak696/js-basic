@@ -31,7 +31,7 @@ greet("Jhon", "doe", "en");
 
 function greet(firstname, lastname, language){
 
-      language = language || "english";
+    language = language || "english";
 
     console.log(firstname)
     console.log(lastname)
@@ -41,6 +41,14 @@ function greet(firstname, lastname, language){
 
     // arguments keyword contains all the value of the js value
 }
+
+const value =  [firstname, lastname, language];
+greet(...value);
+
+/**
+ * In this way we can spread value to the function
+ * and pass params to the function
+ */
 
 //** */ when there are two functions of same name then It will execute the last one
 

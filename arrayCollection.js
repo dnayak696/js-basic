@@ -1,5 +1,5 @@
-
-// Js array can hola collection of anything
+// Js array can hold collection of anything
+// like function value array
 
 var arr = [
     1,

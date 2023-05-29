@@ -3,7 +3,7 @@ function sayHi (){
 
     setTimeout( function(){
        console.log( greeting );
-    },3000)
+    }, 3000)
 }
 
 sayHi()

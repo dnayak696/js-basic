@@ -49,6 +49,9 @@ var arr = [1,2,3];
 
 c.log();
 
+// * If we are difining this inside object literal then it takes the value of the 
+// object
+
 // ehen we assign to a new value "this" 
 // then we have to update it again
 //
