@@ -48,7 +48,7 @@ function myFunction(numArr, targetSum) {
     // let outArr = [];
    // const newArr = new Set(numArr);
     
-    for( let i = 1; i < numArr.length; i++ ) {
+    for( let i = 0; i < numArr.length; i++ ) {
            
             let first =  numArr[i]
 
@@ -57,7 +57,7 @@ function myFunction(numArr, targetSum) {
 
             if( targetSum == first + numArr[j] ) {
                       
-                console.log(numArr.indexOf(numArr[i]), numArr.indexOf(fnumArr[j]))
+            return [numArr.indexOf(first), numArr.indexOf(numArr[j])]
                 
             }
             

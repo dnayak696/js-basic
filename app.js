@@ -90,6 +90,6 @@ console.log(6%4)
 
 // Faking name spaces
 
-// IN NameSpace is a container for variables and functions
+// IN Name Space is a container for variables and functions
 
 
