@@ -1,7 +1,7 @@
 
 const str1 = "Hello, world!";
 
-const str2 = "Hello, wordl!";
+const str2 = "Hello, wldor!";
 
 
 console.log(isPermutation(str1, str2));

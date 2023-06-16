@@ -3,7 +3,7 @@
 
 
 const string = "adb";
- console.log(string);
+console.log(string);
 console.log(isUnique(string));
 
 
